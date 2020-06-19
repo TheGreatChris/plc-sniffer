@@ -124,7 +124,7 @@ U 1 1 5F8EC601
 P 2500 3450
 F 0 "J101" H 2418 3125 50  0000 C CNN
 F 1 "TO EVSE" H 2418 3216 50  0000 C CNN
-F 2 "" H 2500 3450 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 2500 3450 50  0001 C CNN
 F 3 "~" H 2500 3450 50  0001 C CNN
 	1    2500 3450
 	-1   0    0    1   
@@ -183,7 +183,7 @@ U 1 1 5F8F6A43
 P 8750 3500
 F 0 "J103" H 8830 3542 50  0000 L CNN
 F 1 "TO EV" H 8830 3451 50  0000 L CNN
-F 2 "" H 8750 3500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 8750 3500 50  0001 C CNN
 F 3 "~" H 8750 3500 50  0001 C CNN
 	1    8750 3500
 	1    0    0    -1  
@@ -318,7 +318,7 @@ U 1 1 5F632911
 P 6900 2800
 F 0 "J102" H 6980 2842 50  0000 L CNN
 F 1 "DEBUG" H 6980 2751 50  0000 L CNN
-F 2 "" H 6900 2800 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 6900 2800 50  0001 C CNN
 F 3 "~" H 6900 2800 50  0001 C CNN
 	1    6900 2800
 	1    0    0    -1  
@@ -346,4 +346,12 @@ Wire Wire Line
 	4300 5150 4900 5150
 Wire Wire Line
 	6450 5150 6900 5150
+Text Notes 7350 7500 0    50   ~ 0
+PLC Sniffer
+Text Notes 10600 7650 0    50   ~ 0
+0,1
+Text Notes 8100 7650 0    50   ~ 0
+2020/06/19
+Text Notes 7050 7050 0    100  ~ 0
+Top layer schematic for\nPLC man-in-the-middle sniffer\nwith 15118 charging interface
 $EndSCHEMATC

@@ -207,8 +207,8 @@ Wire Notes Line
 	3150 3000 3150 2400
 Wire Notes Line
 	3150 2400 2550 2400
-Text Notes 2550 2500 0    50   ~ 0
-Total: 2k74
+Text Notes 2550 2650 1    50   ~ 0
+2k74
 Wire Wire Line
 	3050 2300 3500 2300
 $Comp
@@ -239,6 +239,6 @@ Wire Notes Line
 	3800 2850 3800 2350
 Wire Notes Line
 	3800 2350 3400 2350
-Text Notes 3400 2800 1    50   ~ 0
-Total: 1k3
+Text Notes 3400 2550 1    50   ~ 0
+1k3
 $EndSCHEMATC

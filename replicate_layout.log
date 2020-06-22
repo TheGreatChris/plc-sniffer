@@ -1,0 +1,78 @@
+06-19 22:17:19 replicate_layout.action_replicate_layout 305:Plugin executed on: 'win32'
+06-19 22:17:19 replicate_layout.action_replicate_layout 306:Plugin executed with python version: '2.7.16 (default, Aug 15 2019, 17:51:40)  [GCC 9.2.0 64 bit (AMD64)]'
+06-19 22:17:19 replicate_layout.action_replicate_layout 307:KiCad build version: (5.1.6)-1
+06-19 22:17:19 replicate_layout.action_replicate_layout 308:Replicate layout plugin version: 64 started
+06-19 22:17:20 replicate_layout.action_replicate_layout 340:Preparing replicator with U602 as a reference
+06-19 22:17:20 replicate_layout.replicatelayout 211:getting project hierarchy from schematics
+06-19 22:17:20 replicate_layout.replicatelayout 213:Project hierarchy looks like:
+{'5EEFF72A': ['Proxy EV', u'C:\\Users\\chris\\Documents\\KiCad\\plc-sniffer\\proxy_ev.sch'], '5EF2D1B7': ['PLC Interface EVSE', u'C:\\Users\\chris\\Documents\\KiCad\\plc-sniffer\\plc_interface.sch'], '5F912039': ['Pilot EVSE2', u'C:\\Users\\chris\\Documents\\KiCad\\plc-sniffer\\polit_evse.sch'], '5EEF9DDC': ['Pilot EV', u'C:\\Users\\chris\\Documents\\KiCad\\plc-sniffer\\pilot_ev.sch'], '5EF84EFA': ['USB', u'C:\\Users\\chris\\Documents\\KiCad\\plc-sniffer\\USB.sch'], '5EFFB160': ['PHY', u'C:\\Users\\chris\\Documents\\KiCad\\plc-sniffer\\PHY_fixed.sch'], '5EF1E9B8': ['uC', u'C:\\Users\\chris\\Documents\\KiCad\\plc-sniffer\\stm32.sch'], '5EF016C6': ['PROXY EVSE', u'C:\\Users\\chris\\Documents\\KiCad\\plc-sniffer\\proxy_evse.sch'], '5F84D431': ['PLC Interface EV', u'C:\\Users\\chris\\Documents\\KiCad\\plc-sniffer\\plc_interface.sch']}
+06-19 22:17:20 replicate_layout.replicatelayout 221:getting a list of all footprints on board
+06-19 22:17:20 replicate_layout.action_replicate_layout 367:source anchor footprint is u'U602'
+Located on:['PLC Interface EV']
+With filenames:[u'plc_interface.sch']
+With sheet_id:['PLC Interface EV']
+06-19 22:17:20 replicate_layout.action_replicate_layout 371:Corresponding footprints are 
+[(u'U602', ['PLC Interface EV']), (u'U502', ['PLC Interface EVSE'])]
+06-19 22:17:20 replicate_layout.action_replicate_layout 384:Showing dialog
+06-19 22:17:20 replicate_layout.action_replicate_layout 388:Pcbnew position: wx.Point(-2409, -9)
+06-19 22:17:20 replicate_layout.action_replicate_layout 394:Display 0: wx.Rect(0, 0, 1920, 1080)
+06-19 22:17:20 replicate_layout.action_replicate_layout 394:Display 1: wx.Rect(-2400, 0, 2400, 1350)
+06-19 22:17:20 replicate_layout.action_replicate_layout 398:Toolbar position: wx.Point(-233, 126)
+06-19 22:17:20 replicate_layout.action_replicate_layout 405:Dialog position: wx.Point(-546, 126)
+06-19 22:17:23 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'PLC Interface EV', file:u'plc_interface.sch'
+06-19 22:17:23 replicate_layout.replicatelayout 252:Source sheet path up to the level:['PLC Interface EV']
+06-19 22:17:23 replicate_layout.replicatelayout 256:Footprints on the sheets:
+[u'U602', u'U502']
+06-19 22:17:23 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
+[u'/5F84D431/5EF2D3AC', u'/5EF2D1B7/5EF2D3AC']
+06-19 22:17:23 replicate_layout.replicatelayout 275:All sheets to replicate:
+[['PLC Interface EV'], ['PLC Interface EVSE']]
+06-19 22:17:23 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
+[['PLC Interface EV'], ['PLC Interface EVSE']]
+06-19 22:17:23 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
+[['PLC Interface EVSE']]
+06-19 22:17:35 replicate_layout.replicatelayout 245:construcing a list of sheets suitable for replication on level:'PLC Interface EV', file:u'plc_interface.sch'
+06-19 22:17:35 replicate_layout.replicatelayout 252:Source sheet path up to the level:['PLC Interface EV']
+06-19 22:17:35 replicate_layout.replicatelayout 256:Footprints on the sheets:
+[u'U602', u'U502']
+06-19 22:17:35 replicate_layout.replicatelayout 259:Footprints raw sheet ids:
+[u'/5F84D431/5EF2D3AC', u'/5EF2D1B7/5EF2D3AC']
+06-19 22:17:35 replicate_layout.replicatelayout 275:All sheets to replicate:
+[['PLC Interface EV'], ['PLC Interface EVSE']]
+06-19 22:17:35 replicate_layout.replicatelayout 280:All sheets to replicate sorted:
+[['PLC Interface EV'], ['PLC Interface EVSE']]
+06-19 22:17:35 replicate_layout.replicatelayout 286:All sheets to replicate sorted and without source sheet:
+[['PLC Interface EVSE']]
+06-19 22:17:35 replicate_layout.action_replicate_layout 179:Replicating layout
+06-19 22:17:35 replicate_layout.replicatelayout 986:Starting replication of sheets: [['PLC Interface EVSE']]
+on level: ['PLC Interface EV']
+with tracks=True, zone=True, text=True, containing=True, remove=False, locked=False
+06-19 22:17:35 root 261:updating GUI message: 'Preparing for replication'
+06-19 22:17:35 replicate_layout.replicatelayout 552:Getting the list of source footprints
+06-19 22:17:35 replicate_layout.replicatelayout 556:Getting the list of all the remaining footprints
+06-19 22:17:35 replicate_layout.replicatelayout 560:Getting nets local to source footprints
+06-19 22:17:35 replicate_layout.replicatelayout 564:Getting source bounding box
+06-19 22:17:35 root 266:updating GUI with: 37
+06-19 22:17:35 replicate_layout.replicatelayout 568:Getting source tracks
+06-19 22:17:35 replicate_layout.replicatelayout 572:Getting source zones
+06-19 22:17:35 replicate_layout.replicatelayout 576:Getting source text items
+06-19 22:17:35 replicate_layout.replicatelayout 580:Getting source text items
+06-19 22:17:35 root 261:updating GUI message: 'Replicating footprints'
+06-19 22:17:35 replicate_layout.replicatelayout 586:Replicating footprints
+06-19 22:17:35 replicate_layout.replicatelayout 592:Replicating footprints on sheet ['PLC Interface EVSE']
+06-19 22:17:35 root 266:updating GUI with: 10
+06-19 22:17:35 root 261:updating GUI message: 'Replicating tracks'
+06-19 22:17:35 replicate_layout.replicatelayout 712:Replicating tracks
+06-19 22:17:35 replicate_layout.replicatelayout 718:Replicating tracks on sheet ['PLC Interface EVSE']
+06-19 22:17:35 root 266:updating GUI with: 2
+06-19 22:17:35 root 261:updating GUI message: 'Replicating zones'
+06-19 22:17:35 replicate_layout.replicatelayout 763:Replicating zones
+06-19 22:17:35 replicate_layout.replicatelayout 770:Replicating zones on sheet ['PLC Interface EVSE']
+06-19 22:17:35 root 261:updating GUI message: 'Replicating text'
+06-19 22:17:35 root 266:updating GUI with: 0
+06-19 22:17:35 replicate_layout.replicatelayout 829:Replicating text
+06-19 22:17:35 replicate_layout.replicatelayout 836:Replicating text on sheet ['PLC Interface EVSE']
+06-19 22:17:35 root 261:updating GUI message: 'Replicating drawings'
+06-19 22:17:35 replicate_layout.replicatelayout 860:Replicating drawings
+06-19 22:17:35 replicate_layout.replicatelayout 866:Replicating drawings on sheet ['PLC Interface EVSE']
+06-19 22:17:35 replicate_layout.action_replicate_layout 201:Replication complete

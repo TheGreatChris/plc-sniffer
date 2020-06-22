@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name "PLC stamp")(type KiCad)(uri ${KIPRJMOD}/lib/plc_stamp_mini_2/mod)(options "")(descr ""))
+  (lib (name MEA1D0515SC)(type KiCad)(uri ${KIPRJMOD}/lib/MEA1D0515SC/MEA1D0515SC.pretty)(options "")(descr ""))
+  (lib (name TS-1187A-C-E-B)(type KiCad)(uri ${KIPRJMOD}/lib/TS-1187A-C-E-B.pretty)(options "")(descr ""))
+)

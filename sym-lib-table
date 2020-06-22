@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name plc_stamp_mini_2)(type Legacy)(uri ${KIPRJMOD}/lib/plc_stamp_mini_2/lib/plc_stamp_mini_2.lib)(options "")(descr ""))
+  (lib (name MEA1D0515SC)(type Legacy)(uri ${KIPRJMOD}/lib/MEA1D0515SC/MEA1D0515SC.lib)(options "")(descr ""))
+)

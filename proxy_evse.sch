@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 10
+Sheet 10 10
 Title ""
 Date ""
 Rev ""
@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Text HLabel 2150 3850 0    50   Input ~ 0
-~PUBU
+~PUBU_T1
 $Comp
 L Device:R_Small_US R403
 U 1 1 5EF02623
@@ -75,8 +75,8 @@ Wire Wire Line
 Wire Wire Line
 	3300 3350 3300 3200
 Wire Wire Line
-	3300 3200 3900 3200
-Text HLabel 3900 3200 2    50   UnSpc ~ 0
+	3300 3200 3850 3200
+Text HLabel 4200 3200 2    50   UnSpc ~ 0
 PROXY_OUT
 $Comp
 L Device:Q_NMOS_DGS Q402
@@ -92,7 +92,7 @@ $EndComp
 Wire Wire Line
 	3000 4650 2900 4650
 Text HLabel 2150 4650 0    50   Input ~ 0
-CONNECT
+CONNECT_T1
 $Comp
 L power:GND #PWR0404
 U 1 1 5EF0AE64
@@ -164,4 +164,79 @@ F 3 "" H 2900 5000 50  0001 C CNN
 	1    2900 5000
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:R_Small_US R405
+U 1 1 5F08241B
+P 3850 4100
+F 0 "R405" H 3918 4146 50  0000 L CNN
+F 1 "1k5" H 3918 4055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3850 4100 50  0001 C CNN
+F 3 "~" H 3850 4100 50  0001 C CNN
+	1    3850 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 4000 3850 3200
+Connection ~ 3850 3200
+Wire Wire Line
+	3850 3200 4200 3200
+$Comp
+L Device:Q_NMOS_DGS Q403
+U 1 1 5F082B77
+P 3750 5450
+F 0 "Q403" H 3350 5600 50  0000 L CNN
+F 1 "AO3400A" H 3350 5500 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 3950 5550 50  0001 C CNN
+F 3 "~" H 3750 5450 50  0001 C CNN
+	1    3750 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3850 5250 3850 4200
+Wire Wire Line
+	3850 5650 3850 5800
+$Comp
+L power:GND #PWR0405
+U 1 1 5F083E5B
+P 3850 5800
+F 0 "#PWR0405" H 3850 5550 50  0001 C CNN
+F 1 "GND" H 3855 5627 50  0000 C CNN
+F 2 "" H 3850 5800 50  0001 C CNN
+F 3 "" H 3850 5800 50  0001 C CNN
+	1    3850 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 5450 3350 5450
+Text HLabel 2150 5450 0    50   Input ~ 0
+CONNECT_T2
+$Comp
+L Device:R_Small_US R1028
+U 1 1 5F08538E
+P 3350 5650
+F 0 "R1028" H 3418 5696 50  0000 L CNN
+F 1 "10k" H 3418 5605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" H 3350 5650 50  0001 C CNN
+F 3 "~" H 3350 5650 50  0001 C CNN
+	1    3350 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 5550 3350 5450
+Connection ~ 3350 5450
+Wire Wire Line
+	3350 5450 2150 5450
+$Comp
+L power:GND #PWR0123
+U 1 1 5F085A65
+P 3350 5800
+F 0 "#PWR0123" H 3350 5550 50  0001 C CNN
+F 1 "GND" H 3355 5627 50  0000 C CNN
+F 2 "" H 3350 5800 50  0001 C CNN
+F 3 "" H 3350 5800 50  0001 C CNN
+	1    3350 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 5800 3350 5750
 $EndSCHEMATC
